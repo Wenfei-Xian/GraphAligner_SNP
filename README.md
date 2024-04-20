@@ -2,7 +2,7 @@
 
 Seed-and-extend program for aligning long error-prone reads to genome graphs. To cite, see https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-02157-2. For a description of the bitvector alignment extension algorithm, see https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btz162/5372677
 
-# add the SNP tag
+# update add the SNP tag
 
 ```
 m64078e_211205_091943/66783/ccs 14943   0       14943   +       <edge_2 84166   11480   26423   14939   14946   60      NM:i:7  AS:f:14873      dv:f:0.000468353        id:f:0.999532   cg:Z:1610=1D2047=1D2827=1D4710=1X1=3I3744=      SNP:<edge_2=22677<A
