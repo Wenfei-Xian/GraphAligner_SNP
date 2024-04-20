@@ -198,7 +198,7 @@ public:
             sstr << "\tSNP:";
             for (size_t i = 0; i < snps.size(); ++i) {
                 if (i > 0) sstr << ",";
-                sstr << (snps[i].reverse ? "<" : ">") << snps[i].nodeName << "=" << snps[i].nodeOffset << "<" << snps[i].mutatedTo;
+                sstr << (snps[i].reverse ? "<" : ">") << snps[i].nodeName << "=" << snps[i].nodeOffset << ">" << snps[i].mutatedTo;
             }
         }
 
