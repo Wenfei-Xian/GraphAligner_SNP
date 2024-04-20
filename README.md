@@ -14,7 +14,7 @@ m64078e_211205_091943/66783/ccs 14943   0       14943   +       <edge_2 84166   
 Bioconda is the recommended installation method. If you however want to compile GraphAligner yourself, run these:
 
 - Install miniconda https://conda.io/projects/conda/en/latest/user-guide/install/index.html
-- `git clone https://github.com/maickrau/GraphAligner.git` -> `https://github.com/Wenfei-Xian/GraphAligner_SNP.git`
+- `git clone https://github.com/maickrau/GraphAligner.git` -> `git clone https://github.com/Wenfei-Xian/GraphAligner_SNP.git`
 - `cd GraphAligner`
 - `git submodule update --init --recursive`
 - `conda env create -f CondaEnvironment_linux.yml` or `conda env create -f CondaEnvironment_osx.yml`
