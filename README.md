@@ -15,7 +15,7 @@ Bioconda is the recommended installation method. If you however want to compile 
 
 - Install miniconda https://conda.io/projects/conda/en/latest/user-guide/install/index.html
 - `git clone https://github.com/maickrau/GraphAligner.git` -> `git clone https://github.com/Wenfei-Xian/GraphAligner_SNP.git`
-- `cd GraphAligner`
+- `cd GraphAligner_SNP`
 - `git submodule update --init --recursive`
 - `conda env create -f CondaEnvironment_linux.yml` or `conda env create -f CondaEnvironment_osx.yml`
 - `source activate GraphAligner`
