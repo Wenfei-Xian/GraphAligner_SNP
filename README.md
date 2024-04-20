@@ -1,20 +1,13 @@
-# GraphAligner
+# GraphAligner_SNP
 
 Seed-and-extend program for aligning long error-prone reads to genome graphs. To cite, see https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-02157-2. For a description of the bitvector alignment extension algorithm, see https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btz162/5372677
-
-### Installation
-
-Install via [bioconda](https://bioconda.github.io/):
-
-- Install miniconda https://conda.io/projects/conda/en/latest/user-guide/install/index.html
-- `conda install -c bioconda graphaligner`
 
 #### Compilation
 
 Bioconda is the recommended installation method. If you however want to compile GraphAligner yourself, run these:
 
 - Install miniconda https://conda.io/projects/conda/en/latest/user-guide/install/index.html
-- `git clone https://github.com/maickrau/GraphAligner.git`
+- `git clone https://github.com/maickrau/GraphAligner.git` -> `https://github.com/Wenfei-Xian/GraphAligner_SNP.git`
 - `cd GraphAligner`
 - `git submodule update --init --recursive`
 - `conda env create -f CondaEnvironment_linux.yml` or `conda env create -f CondaEnvironment_osx.yml`
